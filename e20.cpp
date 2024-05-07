@@ -28,34 +28,6 @@ class Patient{
 		}
 };
 int main(){
-//	priority_queue<Patient> queue;
-//	queue.push(Patient("Shruti",General_Checkup));
-//	queue.push(Patient("Neha",Serious));
-//	queue.push(Patient("Riya",Non_Serious));
-//	queue.push(Patient("Shreya",General_Checkup));
-//	queue.push(Patient("OM",Serious));	
-//	
-//	while(!queue.empty()){
-//		Patient currentPatient=queue.top();
-//		queue.pop();
-//		
-//		string priority;
-//		switch(currentPatient.getType()){
-//			case Serious:
-//				priority="Serious";
-//				break;
-//			case Non_Serious:
-//				priority="Non_Serious";
-//				break;
-//			case General_Checkup:
-//				priority="General_Checkup";
-//				break;
-//				
-//		}
-//		
-//		cout<<"Patient:"<<currentPatient.getName()<<" "<<"Priority:"<<priority<<endl;
-//	}
-	
     priority_queue<Patient> hospitalQueue;
 
     // Taking input for patients from the user
